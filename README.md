@@ -47,10 +47,9 @@ Before you begin, make sure you have the following installed on your system:
     php artisan key:generate
     php artisan migrate --seed
     ```
-
-## Run the console command first to calculate the leaderboard
-    ```bash
-    leaderboard:calculate
+7. **Run the console command first to calculate the leaderboard:**
+   ```bash
+    php artisan leaderboard:calculate
     ```
     
 ## Running the Application
